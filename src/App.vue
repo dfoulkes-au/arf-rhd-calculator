@@ -1,6 +1,5 @@
 <script setup>
   import {ref, onMounted} from 'vue'
-  import TopBar from './components/TopBar.vue'
   import InputCard from './components/InputCard.vue'
 
 
@@ -238,7 +237,7 @@ function changePage( dir ) {
 
 <template>
   <v-app>
-    <!--<TopBar />-->
+    <v-app-bar height="50" flat></v-app-bar>
     <v-main class="align-center justify-center" style="min-height: 300px;">
  
     <InputCard 
