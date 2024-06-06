@@ -24,14 +24,16 @@ If you do not already have NodeJS installed, you will need to download and insta
 
 To install Vue3, open a command line window, and run the following command:
 
-```npm install vue@next
+```
+npm install vue@next
 ```
 
 ### Clone the Application Repository
 
 To clone the repository and change into the new application folder, open a command line window, and run the following commands:
 
-```git clone https://github.com/dfoulkesjcu/arf-rhd-calculator.git
+```
+git clone https://github.com/dfoulkesjcu/arf-rhd-calculator.git
 cd arf-rhd-calculator
 ```
 
@@ -39,14 +41,16 @@ cd arf-rhd-calculator
 
 To install the Vuetify plugin, open a command line window, change to the application folder, and run the following command:
 
-```npm install vuetify@latest
+```
+npm install vuetify@latest
 ```
 
 ### Starting the Development Server
 
 To start the development server, open a command line window, change to the application folder, and run the following command:
 
-```npm run dev
+```
+npm run dev
 ```
 
 The server will be accessible at [http://localhost:3000](http://localhost:3000):
@@ -55,7 +59,8 @@ The server will be accessible at [http://localhost:3000](http://localhost:3000):
 
 To ready the application for deployment on a production server, open a command line window, change to the application folder, and run the following command:
 
-```npm run build
+```
+npm run build
 ```
 
 Once the process is completed, build content can be found in the **dist** folder.    
