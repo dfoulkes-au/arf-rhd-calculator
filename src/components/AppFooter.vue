@@ -23,7 +23,7 @@
       —
       <a
         class="text-decoration-none on-surface"
-        href=""
+        href="https://github.com/dfoulkesjcu/arf-rhd-calculator/blob/main/LICENSE.md"
         rel="noopener noreferrer"
         target="_blank"
       >
@@ -43,12 +43,12 @@
     {
       title: 'NARDHC LinkedIn',
       icon: 'mdi-linkedin',
-      href: 'https://x.com/vuetifyjs',
+      href: 'https://www.linkedin.com/company/101721851/admin/feed/posts/',
     },
     {
       title: 'NARDHC GitHub',
       icon: `mdi-github`,
-      href: 'https://github.com/dfoulkesjcu/arf-register-fsh',
+      href: 'https://github.com/dfoulkesjcu/arf-rhd-calculator',
     },
   ]
 </script>

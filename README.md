@@ -71,7 +71,7 @@ The application may now be deployed to a production environment by means of copy
 
 This software has been developed by Northern Australian Regional Digital Health Collaborative (NARDHC).  Any feedback or support to enhance this will be appreciated.
 
-## 📑 License
-[MIT](http://opensource.org/licenses/MIT)
+## License
+[MIT](http://opensource.org/licenses/MIT) Open source license.
 
 Copyright (c) 2024-present Daniel Foulkes, Northern Australian Regional Digital Health Collaborative
