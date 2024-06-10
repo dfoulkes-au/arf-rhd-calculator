@@ -18,7 +18,7 @@
         {{ cinfo.subtitle }}
     </v-card-subtitle>
     </div>  
-    <v-card-text>
+    <v-card-text class="leadout">
         <CheckBox v-for="item in cinfo.items" v-model="model" :label="item.label" :value="item.value" :show="item.show" />
         <div v-if="cinfo.statement" class="statement my-3">{{ cinfo.statement }}</div>
         <div v-for="note in cinfo.leadout" class="leadout mt-2">{{ note }}</div>
@@ -39,6 +39,7 @@
 <style>
 .leadout {
   font-size: 1em;
+  opacity: 100;
 }
 .statement {
   font-size: 1.5em;

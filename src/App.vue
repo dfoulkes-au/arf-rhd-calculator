@@ -14,7 +14,7 @@
       title: "Acute Rheumatic Fever Calculator",
       subtitle: "Based on Modified Jones Criteria adapted in Australia Guidelines",
       leadout: [],
-      disclaimer: ["WARNING:", "This is experimental software.", "It is NOT approved for diagnostic purposes."],
+      disclaimer: ["WARNING:", "This experimental software is NOT approved for diagnostic purposes."],
       next: "Start",
       prev: "",
       items: [],
@@ -148,7 +148,7 @@ const strepa = ref(
       subtitle: "Calculated based on prior selections using 2020 Australian Criteria for ARF Diagnosis",
       statement: "",
       leadout: [],
-      disclaimer: ["WARNING:", "This is experimental software.", "It is NOT approved for diagnostic purposes."],
+      disclaimer: ["WARNING:", "This experimental software is NOT approved for diagnostic purposes."],
       next: "Close",
       prev: "Prev",
       selected: [],
@@ -218,7 +218,7 @@ function changePage( dir ) {
       lines.push(nmajor.toString() + ' major manifestations');
       lines.push(nminor.toString() + ' minor manifestations');
       lines.push(' ');
-      if ( (hadstrep && (nmajor >= 2)) || (hadstrep && (nmajor ==1) && (nminor >= 2)) ) {
+      if ( (hadstrep && (nmajor >= 2)) || (hadstrep && (nmajor ==1) && (nminor >= 2)) || (priorARF && (nminor >= 3)) ) {
         summary.value.statement = 'Indicates a Definite ' + episode + ' of ARF';
       } else if ( (hadstrep && (nmajor == 1)) || (hadstrep && (nmajor ==1) && (nminor == 1)) || (nmajor >= 2) || ((nmajor ==1) && (nminor >= 2))) {
         summary.value.statement = 'Indicates a Probable or Possible ' + episode + ' of ARF';

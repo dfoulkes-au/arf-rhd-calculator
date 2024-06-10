@@ -4,14 +4,16 @@
 </script>
 
 <template>
-   <v-checkbox v-if="show" v-model="model" :value hide-details density="compact" class="shrink mr-0 mt-0 label" >
-    <template v-slot:label><span v-html="label" class="label"></span></template>
+    <div>
+   <v-checkbox v-if="show" v-model="model" :value hide-details density="compact" class="shrink mr-0 mt-0" >
+     <template v-slot:label ><span v-html="label" class="mylabel" ></span></template>
    </v-checkbox>
+</div>
 </template>
 
 <style>
 .v-label {
-    opacity: 100%;
-    font-size: 0.85em;
+    font-size: 0.85em !important;
+    opacity: 100% !important;
 }
 </style>
