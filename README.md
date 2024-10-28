@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 <div align="center">
-  <a href="https://github.com/dfoulkesjcu/arf-register-fsh"><img src="docimg/logo.ico" alt="ARF Logo" width="80" height="80"></a>
+  <a href="https://github.com/dfoulkesjcu/arf-rhd-calculator"><img src="public/logo.ico" alt="ARF Logo" width="80" height="80"></a>
   <h2>Calculator for Acute Rheumatic Fever (Experimental) - Code Package</h2>
 </div>
 
