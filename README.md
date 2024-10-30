@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 <div align="center">
-  <a href="https://github.com/dfoulkesjcu/arf-rhd-calculator"><img src="public/favicon.ico" alt="ARF Logo" width="80" height="80"></a>
+  <a href="https://github.com/dfoulkes-au/arf-rhd-calculator"><img src="public/favicon.ico" alt="ARF Logo" width="80" height="80"></a>
   <h2>Calculator for Acute Rheumatic Fever (Experimental) - Code Package</h2>
 </div>
 
@@ -15,7 +15,7 @@ The code in this project describes a single page application that can be built u
 
 **NOTE: This is experimental software and is not approved for diagnostic purposes.**
 
-If you simply wish to deploy the web application without modification,  go to [Acute Rheumatic Fever Calculator - Deployment Package](https://github.com/dfoulkesjcu/arf-rhd-calculator-dist) where you can access the html/js files required.
+If you simply wish to deploy the web application without modification,  go to [Acute Rheumatic Fever Calculator - Deployment Package](https://github.com/dfoulkes-au/arf-rhd-calculator-dist) where you can access the html/js files required.
 
 If you like this, don't forget to give the project a star! Thanks again!
 
@@ -48,7 +48,7 @@ npm install vue@next
 To clone the repository and change into the new application folder, open a command line window, and run the following commands:
 
 ```sh
-git clone https://github.com/dfoulkesjcu/arf-rhd-calculator.git
+git clone https://github.com/dfoulkes-au/arf-rhd-calculator.git
 cd arf-rhd-calculator
 ```
 
@@ -123,4 +123,4 @@ Distributed under the MIT License. See [LICENSE.md][license-url] for more inform
 
 [linkedin-df-url]: https://www.linkedin.com/in/daniel-foulkes/
 [linkedin-nardhc-url]: https://www.linkedin.com/company/101721851
-[license-url]: https://github.com/dfoulkesjcu/arf-rhd-calculator/blob/main/LICENSE.md
+[license-url]: https://github.com/dfoulkes-au/arf-rhd-calculator/blob/main/LICENSE.md
